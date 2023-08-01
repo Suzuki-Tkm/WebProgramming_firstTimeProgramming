@@ -1,0 +1,139 @@
+h2.big {
+  margin-top:50px;  /* 余白（上部）*/
+  margin-bottom:20px;  /* 余白（下部）*/
+  padding:5px 15px;  /* 空白領域（上下　左右）*/
+  background:#eaf4fc;  /* 背景色 */
+  border-left:#84a2d4 8px solid;  /* 枠線（左部）色 スタイル（直線）*/
+  font-size: 160%;  /* 文字のサイズ（相対指定） */
+  font-weight: bold;  /* 文字の太さ */
+  color:#2f4f4f;  /* 文字の色 */
+}
+h5.big {
+  margin-top:50px;  /* 余白（上部）*/
+  margin-bottom:20px;  /* 余白（下部）*/
+  padding:5px 15px;  /* 空白領域（上下　左右）*/
+  background:#eaf4fc;  /* 背景色 */
+  border-left:#84a2d4 8px solid;  /* 枠線（左部）色 スタイル（直線）*/
+  font-size: 130%;  /* 文字のサイズ（相対指定） */
+  font-weight: bold;  /* 文字の太さ */
+  color:#2f4f4f;  /* 文字の色 */
+}
+table {
+  border: medium solid #eaf4fc;  /* 枠線の装飾 */
+  margin: 1rem 3rem;
+}
+
+th, td {
+  border: thin solid #eaf4fc;
+  padding: 0.1rem 0.5rem;
+}
+
+th {
+  color: #000000;
+  background-color: #eaf4fc;
+}
+
+
+p {
+  padding: 1rem 2rem;
+  line-height: 1.8rem;  /* 行間の設定 */
+}
+
+ol, ul {
+  padding: 1rem 4rem;
+}
+
+li {
+  line-height: 1.8rem;
+}
+
+address {
+  padding: 1rem 2rem;
+  font-style: normal;  /* 文字のスタイル（標準） */
+  text-align: right;
+}
+
+
+a:link {  /* リンク（クリック前） */
+  color:#3366ff;
+  text-decoration:none;  /* 文字の飾り（無し） */
+}
+
+a:visited {  /* リンク（クリック後） */
+  color:#666666;
+  text-decoration:none;
+}
+
+a:hover {  /* リンク（カーソルオン） */
+  color:#84a2d4;
+  text-decoration:underline;  /* 文字の飾り（下線） */
+}
+
+h3{
+  font-size: 120%;
+  margin: 1rem 2rem;  /* 余白（上下　左右を相対指定）*/
+}
+
+h3:first-letter {  /* 最初の文字を指定 */
+  color: #84a2d4;
+  font-size: 150%;
+}
+#container {
+  width:800px;
+  margin:0 auto;
+  border-top:7px solid  #84a2d4;
+}
+nav {
+  height: 32px;
+  margin-bottom: 10px;
+  padding: 0;
+  background-color: #84a2d4;
+}
+nav h2 {
+  display: none;
+}
+nav ul {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+  list-style-type: none;
+}
+nav ul li {
+  margin: 0;
+  padding: 0;
+  float: left;　
+  width: 200px;
+  text-align: center;
+  font-size: 14px;
+}
+nav ul li a {
+  border-right: 1px solid #a9a9a9;
+  padding: 2px 20px;
+  display: block;
+  position: relative;
+  color: #fff;
+  background-color: #a9a9a9;
+  text-decoration: none;
+}
+nav ul li a:link {
+  color:#eaf4fc;
+  text-decoration:none;
+}
+
+nav ul li a:visited {
+  color:#eaf4fc;
+  text-decoration:none;
+}
+
+nav ul li a:hover {
+  border-color: #fff;
+  color:#333;
+  background-color: #ffdab9;
+  text-decoration: none;
+}
+
+#top{
+  text-align: left;
+  position:fixed;
+}

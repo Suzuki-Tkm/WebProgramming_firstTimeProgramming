@@ -1,0 +1,70 @@
+body {
+  background-color: #e8ecef;
+  font-size: 105%;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 300%;
+  font-weight: 550;
+  background: #666;
+  padding: 20px 70px;
+  border-radius: 20px;
+}
+
+h2{
+  text-align: center;
+  font-size: 150%;
+}
+
+.pred{
+  text-align: center;
+}
+
+#mark{
+  text-align: right;
+  font-size: 40%;
+}
+
+
+#check{
+  color: #666;
+  font-size: 110%;
+}
+
+#a, #b, #c, #d{
+  margin: 30px 89px;
+  padding: 20px 10px;
+  width: 510px;
+  color: #666666;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+}
+
+#a {
+  float: left;
+  height: 480px;
+}
+
+#b {
+  float: right;
+  height: 480px;
+}
+
+#c {
+  float: left;
+  height: 480px;
+}
+
+#d {
+  float: right;
+  height: 480px;
+}
+
+a {
+  color: #8491c3;
+  font-size: 180%;
+  font-weight: 900;
+}
